@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="applicable-device" content="mobile" />
+	<!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<!-- iphone会把一串数字识别为电话号码，点击的时候会提示是否呼叫，屏蔽这功能则把telephone设置为no -->
+	<meta content="telephone=no" name="format-detection"/> 
+	<!-- iphone的私有标签，默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明） -->
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<!-- 全屏显示 
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<!-- UC强制全屏 
+	<meta name="full-screen" content="yes">
+	<!-- QQ强制全屏 
+	<meta name="x5-fullscreen" content="true">
+	<!-- 屏蔽百度转码 -->
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/index.css">	
+</head>
+<body>
+<!-- 以下是头部部分 -->
+	<header>
+		<div class="header-container-big">
+			<div class="header-container-small">
+				<div class="header-left">
+					<div id="showCity">南京</div>
+					<ul id="selectCity">
+						<li>南京</li>
+						<li>苏州</li>
+						<li>无锡</li>
+						<li>常州</li>
+						<li>连云港</li>
+						<li>南通</li>
+						<li>徐州</li>
+						<li>扬州</li>
+						<li>镇江</li>
+					</ul>
+					<img src="images/top1_03.png" id="arrow">
+				</div>
+				<div class="header-middle"><img src="images/top2_03.png" id="searchImage"><input type="text" id="doSearch" placeholder="请输入商品名、品类或者商圈……"></div>
+				<div  class="header-right"><img src="images/top3_03.png"></div>			
+			</div>
+		</div>
+	</header>
+<!-- 以下是内容主体部分 -->
+	<article>
+		<!-- banner部分	 -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="images/banner1_03.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="images/ad-01.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="images/ad-04.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="images/ad-03.jpg" alt="">
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<!-- 下面是缩略图，推荐区 -->
+		<div class="little-images">
+			<div class="little-images-firstLine">
+				<img src="images/food1_03.png">
+				<img src="images/food_03.png">
+				<img src="images/food5_03.png">
+				<img src="images/food7_03.png">
+			</div>
+			<div class="little-images-secondLine">
+				<div>美食</div>
+				<div>酒店</div>
+				<div>景点</div>
+				<div>休闲娱乐</div>
+			</div>
+			<div class="little-images-thirdLine">
+				<img src="images/food2_03.png">
+				<img src="images/food_04_03.png">
+				<img src="images/food6_03.png">
+				<img src="images/food8_03.png">
+			</div>
+			<div class="little-images-fourthLine">
+				<div>闪惠团购</div>
+				<div>电影</div>
+				<div>度假</div>
+				<div>购物</div>
+			</div>
+		</div>
+		<div id="imagesHr"></div>
+		<!-- 以下是免费体验区	 -->		
+		<div class="freeArea">
+		<!-- 免费区的头部部分 -->
+			<div class="freeArea-header">
+				<div class="freeArea-header-left">免费体验</div>
+				<div class="freeArea-header-middle">
+					<div class="freeArea-header-middle1">距离开始</div>
+					<div class="freeArea-header-middle2" id="timer"></div>
+				</div>
+				<div class="freeArea-header-right">查看更多></div>
+			</div>
+			<!-- 免费区的主体部分 -->
+			<div class="freeArea-body">
+				<div class="freeArea-items">
+					<img src="images/free1_03.png">
+					<div>冰激凌</div>
+				</div>
+				<div class="freeArea-items">
+					<img src="images/free2_03.png">
+					<div>果蔬饮料</div>
+				</div>
+				<div class="freeArea-items">
+					<img src="images/free3_03.png">
+					<div>水果拼盘</div>
+				</div>
+				<div class="freeArea-items">
+					<img src="images/free5_03_03.png">
+					<div>美味披萨</div>
+				</div>
+				<div class="freeArea-items">
+					<img src="images/free5_03.png">
+					<div>洗车擦车</div>
+				</div>
+				<div class="freeArea-items">
+					<img src="images/free4_03.png">
+					<div>摄影写真</div>
+				</div>
+				<div class="freeArea-items">
+					<img src="images/free6_03.png">
+					<div>台球休闲</div>
+				</div>
+				<div class="freeArea-items">
+					<img src="images/free8_03.png">
+					<div>足浴养生</div>
+				</div>
+				<div id="freeHr1"></div>			
+			</div>
+			
+			<div id="freeHr2"></div>			
+		</div>
+		<!-- 下面是玖邦尼创富区域 -->
+		<div class="money">
+		<!-- 下面是九邦尼创富头部header区域 -->	
+			<div class="money-header">
+				<div class="money-header-left">玖邦尼创富</div>
+				<div class="money-header-middle">邦尼币购物，超值超划算！
+				</div>
+				<div class="money-header-right">查看更多></div>
+			</div>
+			<!-- 下面是九邦尼创富主体body区域 -->
+			<div class="money-body">
+				<img src="images/money1_03.png">
+				<img src="images/money2_03.png">
+				<img src="images/money3_03.png">
+				<img src="images/money4_03.png">
+				<img src="images/money5_03.png">
+				<img src="images/money6_03.png">
+				<img src="images/money7_03.png">
+				<img src="images/money8_03.png">
+			</div>
+			<div id="moneyHr"></div>
+		</div>
+		<!-- 下面是猜你喜欢区域 -->
+		<div class="guessLove">
+		<!-- 下面是猜你喜欢头部header区域 -->
+		<div class="guessLove-header">
+			<div class="guessLove-header-left">猜你喜欢</div>
+			<div class="guessLove-header-right">查看所有></div>			
+		</div>
+		<!-- <hr> -->
+		</div>
+		<!-- 下面是猜你喜欢主体body区域(显示出来的) -->
+		<div class="guessLove-body">
+			<div class="guessLove-body-Lines">
+				<img src="images/love1_03.png">
+				<div class="guessLove-text">
+					<div class="guessLove-text-firstLine">
+						<div>贝贝蛋糕/蛋挞</div>
+						<div> < 1Km</div>
+					</div>
+					<div class="guessLove-text-secondLine">【高皇寨花都莲郡小区】</div>
+					<div class="guessLove-text-thirthLine">
+						<div>￥49.00元</div>
+						<div>月销量：1532份</div>
+					</div>
+				</div>
+			</div>
+			<div class="guessLove-body-Lines">
+				<img src="images/love2_03.png">
+				<div class="guessLove-text">
+					<div class="guessLove-text-firstLine">
+						<div>天天见面麻辣香锅</div>
+						<div> < 1Km</div>
+					</div>
+					<div class="guessLove-text-secondLine">【经天路与晨旭路交叉口】</div>
+					<div class="guessLove-text-thirthLine">
+						<div>￥49.00元</div>
+						<div>月销量：1352份</div>
+					</div>
+				</div>				
+			</div>
+			<div class="guessLove-body-Lines">
+				<img src="images/love3_03.png">
+				<div class="guessLove-text">
+					<div class="guessLove-text-firstLine">
+						<div>重庆小面</div>
+						<div> < 1Km</div>
+					</div>
+					<div class="guessLove-text-secondLine">【郑州市金水区庙】</div>
+					<div class="guessLove-text-thirthLine">
+						<div>￥6.00元</div>
+						<div>月销量：1202份</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 下面是猜你喜欢主体body区域(隐藏的) -->
+		<div class="guessLove-body hidden" id="hiddenLove">
+			<div class="guessLove-body-Lines">
+				<img src="images/love1_03.png">
+				<div class="guessLove-text">
+					<div class="guessLove-text-firstLine">
+						<div>贝贝蛋糕/蛋挞</div>
+						<div> < 1Km</div>
+					</div>
+					<div class="guessLove-text-secondLine">【高皇寨花都莲郡小区】</div>
+					<div class="guessLove-text-thirthLine">
+						<div>￥49.00元</div>
+						<div>月销量：1532份</div>
+					</div>
+				</div>
+			</div>
+			<div class="guessLove-body-Lines">
+				<img src="images/love2_03.png">
+				<div class="guessLove-text">
+					<div class="guessLove-text-firstLine">
+						<div>天天见面麻辣香锅</div>
+		               <div> < 1Km</div>
+					</div>
+					<div class="guessLove-text-secondLine">【经天路与晨旭路交叉口】</div>
+					<div class="guessLove-text-thirthLine">
+						<div>￥49.00元</div>
+						<div>月销量：1352份</div>
+					</div>
+				</div>				
+			</div>
+			<div class="guessLove-body-Lines">
+				<img src="images/love3_03.png">
+				<div class="guessLove-text">
+					<div class="guessLove-text-firstLine">
+						<div>重庆小面</div>
+						<div> < 1Km</div>
+					</div>
+					<div class="guessLove-text-secondLine">【郑州市金水区庙】		</div>
+					<div class="guessLove-text-thirthLine">
+						<div>￥6.00元</div>
+						<div>月销量：1202份</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 下面是猜你喜欢下面的查看更多 -->
+		<div class="guessLove-footer" id="watchMore">查看全部团购</div>
+		<!-- 下面是底部footer部分 -->
+		<div class="footer">
+			<div class="footer-img">
+				<img src="images/footer1_03.png">
+				<img src="images/footer2_03.png">
+				<img src="images/footer3_03.png">
+				<img src="images/footer4_03.png">
+			</div>
+		</div>
+	</article>
+	<script src="js/common.js"></script>
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

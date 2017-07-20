@@ -1,0 +1,405 @@
+/* 头部部分的样式 */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body,html{
+	/* width:100%; */
+	height:100%;
+	/* font-size:0; */
+}
+header{
+	width:6.4rem;
+	position:fixed;
+	z-index:100;
+	top:0;
+	font-size:0;
+	margin:0 auto;
+}
+.header-container-big{
+	width: 6.4rem;
+	height:0.76rem;	
+	background:rgb(12,151,248);
+}
+.header-container-small{
+	position:relative;
+	width:5.8rem;
+	height:0.48rem;
+	margin:auto;
+	top:0.14rem;
+	color:#fff;
+	font-size:0.2rem;
+}
+.header-left{
+	position:absolute;
+	width:17%;
+	height:100%;
+	
+}
+#showCity{
+	margin-top:0.08rem;
+	width:70%;
+	height:70%;
+	text-align:center;
+	font-size:0.23rem;
+}
+#selectCity{
+	background:#FAEBD7;
+	color:black;
+	text-align:center;
+	height:2rem;
+	overflow:scroll;
+	display:none;
+}
+#arrow{
+	position:absolute;
+	left:0.7rem;
+	top:0.12rem;
+	width:0.2rem;
+	height:0.23rem;
+}
+.header-middle{
+	position:absolute;
+	width:68%;
+	height:100%;
+	left:1.05rem;
+	border: 1px solid #fff;
+	border-radius:0.1rem;
+}
+#searchImage{
+	position:relative;
+	width:0.36rem;
+	height:0.29rem;
+	top:0.08rem;
+	margin-right:0.1rem;	
+}
+#doSearch{
+	width:80%;
+	height:100%;
+	position:relative;
+	outline:0;	
+	background:none;
+	border:none;
+	color:#fff;
+}
+.header-right{
+	position:absolute;
+	left:5.3rem;
+	top:0.05rem;
+}
+.header-right>img{
+	width:0.41rem;
+	height:0.41rem;
+}
+
+/* 主体部分的样式 */
+/* banner样式 */
+article{
+	margin-top:0.76rem;
+}
+.swiper-container{
+	width:auto;
+	height:2.4rem;
+	margin:0.0rem;
+	margin:0 suto;
+}
+.swiper-wrapper{
+	/* width:6.4rem; */
+	height:100%;
+}
+.swiper-slide{
+	/* width:6.4rem; */
+	height:100%;
+}
+.swiper-slide img{
+	width:6.4rem;
+	height:100%;
+	display:block;
+}
+/* 以下是小图标推荐区样式 */
+.little-images{
+	width:5.35rem;
+	height:3.38rem;
+	margin:0 0.5rem;
+	font-size:0;	
+}
+.little-images-firstLine img{
+	height:0.8rem;
+	margin-top:0.25rem;
+}
+.little-images-firstLine img:nth-child(2){
+	margin-left:0.65rem;
+}
+.little-images-firstLine img:nth-child(3){
+	margin-left:0.45rem;
+}
+.little-images-firstLine img:nth-child(4){
+	margin-left:0.65rem;
+}
+.little-images-secondLine{
+	font-size:0;
+	display:flex;
+	justify-content:space-between;
+	font-size:0.21rem;
+	margin-top:0.16rem;
+}
+.little-images-secondLine div:nth-child(1){
+	margin-left:0.22rem;
+}
+.little-images-secondLine div:nth-child(2){
+	margin-left:0.15rem;
+}
+.little-images-secondLine div:nth-child(3){
+	margin-left:0.2rem;
+}
+.little-images-secondLine div:nth-child(4){
+	margin-right:0;
+}
+.little-images-thirdLine{
+	display:flex;
+	justify-content:space-between;
+}
+.little-images-thirdLine img{
+	height:0.8rem;
+	margin-top:0.25rem;
+}
+.little-images-fourthLine{
+	display:flex;
+	justify-content:space-between;
+	font-size:0.21rem;
+	margin-top:0.16rem;
+}
+.little-images-fourthLine div:nth-child(2){
+	margin-left:-0.25rem;
+}
+.little-images-fourthLine div:nth-child(4){
+	margin-right:0.22rem;
+}
+#imagesHr{
+	width:6.4rem;
+	height:0.1rem;
+	background-color:#ccc;
+	margin-top:0.1rem;
+}
+/* 以下是免费体验区 */
+/* <!-- 免费区的头部部分 --> */
+.freeArea-header{
+	width:5.8rem;
+	height:0.6rem;
+	margin:0 0.3rem;
+	display:flex;
+	justify-content:space-between;
+	padding-top:0.3rem;
+}
+.freeArea-header-left{
+	height:0.35rem;
+	display:inline-block;
+	font-size:0.22rem;
+	border-left: 0.05rem solid #33CCFF;
+	line-height:0.3rem;
+	padding-left:0.2rem;
+}
+.freeArea-header-middle1{
+	display:inline-block;
+	font-size:0.18rem;
+	border-right:0.02rem solid black;
+	padding-right:0.1rem;
+}
+.freeArea-header-middle2{
+	display:inline-block;
+	font-size:0.18rem;
+}
+.freeArea-header-right{
+	font-size:0.22rem;
+}
+/* 免费区主体部分 */
+.freeArea-body{
+	position:relative;
+	width:5.8rem;
+	height:3.38rem;
+	margin:0 0.4rem;
+}
+.freeArea-items{
+	float:left;
+	margin-left:0.1rem;
+	margin-bottom:0.3rem;
+}
+.freeArea-items img{
+	width:1.3rem;
+	height:1.1rem;
+}
+.freeArea-items div{
+	width:1.3rem;
+	font-size:0.16rem;
+	text-align:center;
+}
+#freeHr1{
+	width:100%;
+	height:0rem;
+	border: 0.005rem solid #ccc;
+	position:absolute;
+	top:1.5rem;
+}
+#freeHr2{
+	width:6.4rem;
+	height:0.1rem;
+	background-color:#ccc;
+	margin-top:0.1rem;
+}
+/* 下面是九邦尼创富区域 */
+/* 下面是九邦尼创富头部header区域 */
+.money-header{
+	width:5.8rem;
+	height:0.6rem;
+	margin:0 0.35rem;
+	display:flex;
+	justify-content:space-between;
+	padding-top:0.3rem;
+}
+.money-header-left{
+	height:0.35rem;
+	display:inline-block;
+	font-size:0.22rem;
+	border-left: 0.05rem solid #33CCFF;
+	line-height:0.3rem;
+	padding-left:0.2rem;
+}
+.money-header-middle{
+	font-size:0.2rem;
+}
+.money-header-right{
+	font-size:0.22rem;
+}
+/* 下面是九邦尼创富主体body区域 */
+.money-body{
+	font-size:0;
+	width:5.8rem;
+	height:3.19rem;
+	margin:0 0.4rem;
+}
+.money-body img{
+	width:1.4rem;
+	height:1.3rem;
+	margin-bottom:0.2rem;
+	margin-left:0.02rem;
+}
+#moneyHr{
+	width:6.4rem;
+	height:0.1rem;
+	background-color:#ccc;
+	margin-top:0.05rem;
+}
+/* <!-- 下面是猜你喜欢区域 --> */
+/* <!-- 下面是猜你喜欢头部header区域 --> */
+.guessLove-header{
+	width:5.8rem;
+	height:0.5rem;
+	margin:0 0.4rem;
+	display:flex;
+	justify-content:space-between;
+	padding-top:0.4rem;
+	border-bottom:1px solid #ccc;
+}
+.guessLove-header-left{
+	height:0.35rem;
+	display:inline-block;
+	font-size:0.22rem;
+	border-left: 0.05rem solid #33CCFF;
+	line-height:0.3rem;
+	padding-left:0.2rem;
+}
+.guessLove-header-right{
+	font-size:0.22rem;
+}
+/* <!-- 下面是猜你喜欢主体body(显示出来的) 区域 --> */
+.guessLove-body{
+	width:5.8rem;
+	height:5.15rem;
+	margin:0 0.4rem;
+	font-size:0;
+}
+.guessLove-body-Lines{
+	width: 5.8rem;
+	height:1.82rem;
+	margin:0 auto;
+	border-bottom:0.01rem solid #ccc;
+	position:relative;
+	font-size:0;
+}
+.guessLove-body-Lines img{
+	width:2.0rem;
+	height:1.38rem;
+	margin-top:0.22rem;
+	font-size:0;
+
+}
+.guessLove-text{
+	position:absolute;
+	width:3.6rem;
+	left:2.15rem;
+	top:0rem;
+}
+.guessLove-text>div{
+	margin-top:0.2rem;
+	display:flex;
+	justify-content:space-between;	
+}
+.guessLove-text-firstLine{
+	font-size:0.22rem;
+}
+.guessLove-text-secondLine{
+	font-size:0.18rem;
+}
+.guessLove-text-thirthLine{
+	font-size:0.2rem;
+}
+.guessLove-text-thirthLine>div:nth-child(1){
+	color:red;
+	font-weight:bold;
+	font-size:0.22rem;
+}
+/* <!-- 下面是猜你喜欢主体body区域(隐藏的) --> */
+ .hidden{
+	width:5.8rem;
+	height:5.15rem;
+	margin:0 0.4rem;
+	margin-top:0.31rem;
+}
+#hiddenLove{
+	display:none;
+}
+/* 下面是猜你喜欢下面的查看更多 */
+.guessLove-footer{
+	width:6.4rem;
+	height:0.6rem;
+	line-height:0.6rem;
+	font-size:0.22rem;
+	text-align:center;
+	margin-top:0.4rem;
+	margin-bottom:0.8rem;
+
+}
+/* 下面是底部footer部分 */
+.footer{
+	width:6.4rem;
+	height:0.8rem;
+	background:rgb(12,151,248);
+	position:fixed;
+	bottom:0;
+}
+.footer-img{
+	width:5.8rem;
+	height:100%;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+.footer-img img{
+	width:0.8rem;
+	height:0.65rem;
+	margin:0.09rem;
+}
+::-webkit-input-placeholder{
+	color:#fff;
+};
